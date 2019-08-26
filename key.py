@@ -1,0 +1,1 @@
+key = ["YOUR_IFTTT_KEY_HERE"]

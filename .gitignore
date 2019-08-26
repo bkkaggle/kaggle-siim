@@ -1,0 +1,10 @@
+dicom-images-train/
+dicom-images-test/
+
+train_imgs/
+train_masks/
+
+test_imgs/
+__pycache__/
+checkpoint-0.pt
+runs/
