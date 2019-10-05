@@ -127,6 +127,8 @@ def train(checkpoint=None, log_more=LOG_MORE, seed=SEED, n_splits=N_SPLITS, subs
             # out = out['out']
 
             loss = criterion(out, mask)
+            loss = loss / gradient_accumulation_steps
+            
             train_loss += loss.item()
 
             writer.add_scalar('train_loss', loss.item(), global_train_step)
