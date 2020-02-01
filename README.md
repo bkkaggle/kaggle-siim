@@ -1,4 +1,4 @@
-# kaggle-siim
+# kaggle-siim-template
 
 ## Installation
 
